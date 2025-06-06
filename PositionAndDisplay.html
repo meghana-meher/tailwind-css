@@ -6,5 +6,33 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Position and Display</title>
   </head>
-  <body class="p-20"></body>
+  <body class="p-20">
+    <!-- position -->
+    <h1 class="mb-3">Position</h1>
+    <div class="relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute bottom-0 right-0 bg-teal-500 p-4">absolute</div>
+    </div>
+
+    <h1 class="mb-3">Position</h1>
+    <div class="relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute left-0 top-0 bg-teal-500 p-4">absolute</div>
+    </div>
+
+    <h1 class="mb-3">Position</h1>
+    <div class="relative w-1/2 h-40 bg-green-200">
+      <p>Relative</p>
+      <div class="absolute right-0 top-0 bg-teal-500 p-4">absolute</div>
+    </div>
+
+    <!-- display -->
+    <h1 class="mb-3">Display</h1>
+    <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+      <span class="inline bg-orange-200"> this is inline </span>
+      <span class="inline-block bg-green-200 w-100">inline-block</span>
+      <span class="block">this is block</span>
+      <span class="hidden">display none</span>
+    </div>
+  </body>
 </html>
