@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Background and shadows</title>
+  </head>
+  <body>
+    <div
+      class="h-14 w-full bg-blue-500 bg-cover bg-center bg-no-repeat bg-[url(https://images.pexels.com/photos/3428289/pexels-photo-3428289.jpeg?auto=compress&cs=tinysrgb&w=600)]"
+    ></div>
+
+    <!-- shadows -->
+    <div class="flex flex-wrap">
+      <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">shadow medium</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">shadow large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">shadow xl</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-2xl">shadow 2xl</div>
+      <!-- inner shadows -->
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">shadow inner</div>
+      <!-- colors for shadows -->
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-green-500/50">
+        shadow color with opacity
+      </div>
+    </div>
+    <!-- gradient -->
+    <div class="mt-10">
+      <div class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+      <div class="h-14 bg-gradient-to-l from-orange-500 to-blue-500"></div>
+      <div class="h-14 bg-gradient-to-t from-pink-500 to-blue-500"></div>
+      <div class="h-14 bg-gradient-to-b from-purple-500 to-blue-500"></div>
+    </div>
+    <div
+      class="bg-gradient-to-r from-cyan-500 via-blue-500 to-teal-500 mt-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis
+      praesentium, eos provident molestias aspernatur. Autem cum, aut porro
+      accusamus iste dolores asperiores quidem consequatur assumenda ad dolore
+      adipisci facilis et illum itaque! Eos accusantium sapiente tempore
+      blanditiis nulla et fuga totam. Aliquam ex, consequatur assumenda et
+      porro, quo eaque cum, quae nihil ratione sapiente quaerat unde ipsam iure
+      dignissimos odio illum optio neque quasi. Voluptas aspernatur nisi dolores
+      eos sequi est enim? Vel, saepe facere temporibus dicta eligendi ullam vero
+      voluptas deserunt quia magnam est accusantium veritatis quas illum eaque
+      magni soluta consectetur consequuntur perspiciatis nam minima? Iure, cum.
+    </div>
+  </body>
+</html>
